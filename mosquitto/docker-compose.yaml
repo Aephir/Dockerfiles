@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  mqtt:
+    image: aephir/mosquitto:latest
+    container_name: "MQTT"
+    restart: always
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - /home/aephir/docker/mosquitto/data:/mosquitto/data
+      - /home/aephir/docker/mosquitto/config:/mosquitto/config
+      - /home/aephir/docker/mosquitto/log:/mosquitto/log
+    network_mode: "bridge"
