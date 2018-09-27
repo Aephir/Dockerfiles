@@ -1,4 +1,4 @@
-#Docker file to get started with mosquitto broker and clients
+# Docker file to get started with mosquitto broker and clients
 
 To build, put both `Dockerfile` and `docker-entrypoint.sh` in the same (empty, unless you know what you're doing) folder. Make sure you give enough permissions to the `docker-entrypoint.sh` (I gave 777, probably overkill. I might fine tune later).
 
