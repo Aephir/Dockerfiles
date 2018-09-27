@@ -4,7 +4,10 @@ To build, put both `Dockerfile` and `docker-entrypoint.sh` in the same (empty, u
 
 In the directory with the files, run `docker build` with whatever arguments you'd like. I used:
 
-`docker build -t aephir/mosquitto:0.1.0 -t aephir/mosquitto:latest .`
+```
+docker build -t aephir/mosquitto:0.1.0 -t aephir/mosquitto:latest .
+```
+This is what is assumed in the rest of this guide, and the other files herein.
 
 After that, you can either `docker run` or use a `docker-compose.yaml`. This is what I use, and what I have provided an example of. Make sure you have the directories needed. In the example above, I have a `/home/aephir/docker/mosquitto` directory, the `config`, `data`, `log` are then created within created.
 
