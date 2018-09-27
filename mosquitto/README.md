@@ -13,4 +13,4 @@ After that, you can either `docker run` or use a `docker-compose.yaml`. This is 
 
 Make sure you change you add/change a `mosquitto.conf` file.
 
-Take a look [here](https://github.com/eclipse/mosquitto/tree/master/docker/1.4.14) and [here](https://hub.docker.com/_/eclipse-mosquitto/) for more information
+Take a look [here](https://github.com/eclipse/mosquitto/tree/master/docker/1.4.14) and [here](https://hub.docker.com/_/eclipse-mosquitto/) for more information about the docker container (the primary inspiration for this one), and [here](https://mosquitto.org/) for more general information about mosquitto.
