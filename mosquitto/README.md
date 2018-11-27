@@ -16,3 +16,11 @@ Make sure you change you add/change a `mosquitto.conf` file.
 Take a look [here](https://github.com/eclipse/mosquitto/tree/master/docker/1.4.14) and [here](https://hub.docker.com/_/eclipse-mosquitto/) for more information about the docker container (the primary inspiration for this one), and [here](https://mosquitto.org/) for more general information about mosquitto. [Here](https://hub.docker.com/r/aephir/mosquitto/) is the docker hub page for this.
 
 This is provided as is, with no guarantees. It is the users responsibility to obey any restrictions placed on anything, based on the software used.
+
+_____
+To push to hub.docker.com
+
+```
+docker login
+docker push aephir/mosquitto:latest
+```
